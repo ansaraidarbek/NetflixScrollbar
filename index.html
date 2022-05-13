@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Scroller</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <header class="page-header">
+        <div class="container flow">
+          <h1 class="page-title">An amazing movie!</h1>
+          <p class="page-subtitle">A description of the amazing movie that we think you'd really like to watch right now</p>
+        </div>
+    </header>
+
+
+    <h2 class="section-title">Trending now</h2>
+
+    <div class="media-container">
+        <div class="media-scroller">
+            <!-- Group 1 -->
+            <div class="media-group" id="group-1">
+                <div class="media-element">
+                    <img
+                    src="https://images.unsplash.com/photo-1652283795047-f231a1057af8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                    alt="">
+                </div>
+                <div class="media-element">
+                    <img
+                    src="https://images.unsplash.com/photo-1648737119247-e93f56878edf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                    alt="">
+                </div>
+                <div class="media-element">
+                    <img
+                    src="https://images.unsplash.com/photo-1652259461964-9cd8bbfceb22?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                    alt="">
+                </div>
+                <div class="media-element">
+                    <img
+                    src="https://images.unsplash.com/photo-1652297141433-f9d60177870d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                    alt="">
+                </div>
+                <a class="next" href="#group-2" aria-label="next">
+                    <svg>
+                        <use href="#next"></use>
+                    </svg>
+                </a>
+            </div>
+            <!-- Group 2 -->
+            <div class="media-group" id="group-2">
+                <a class="previous" href="#group-1" aria-label="previous">
+                    <svg>
+                        <use href="#previous"></use>
+                    </svg>
+                </a>
+                <div class="media-element">
+                    <img
+                    src="https://images.unsplash.com/photo-1652283795047-f231a1057af8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                    alt="">
+                </div>
+                <div class="media-element">
+                    <img
+                    src="https://images.unsplash.com/photo-1648737119247-e93f56878edf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                    alt="">
+                </div>
+                <div class="media-element">
+                    <img
+                    src="https://images.unsplash.com/photo-1652259461964-9cd8bbfceb22?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                    alt="">
+                </div>
+                <div class="media-element">
+                    <img
+                    src="https://images.unsplash.com/photo-1652297141433-f9d60177870d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                    alt="">
+                </div>
+                <a class="next" href="#group-3" aria-label="next">
+                    <svg>
+                        <use href="#next"></use>
+                    </svg>
+                </a>
+            </div>
+            <!-- Group 3 -->
+            <div class="media-group" id="group-3">
+                <a class="previous" href="#group-2" aria-label="previous">
+                    <svg>
+                        <use href="#previous"></use>
+                    </svg>
+                </a>
+                <div class="media-element">
+                    <img
+                    src="https://images.unsplash.com/photo-1652283795047-f231a1057af8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                    alt="">
+                </div>
+                <div class="media-element">
+                    <img
+                    src="https://images.unsplash.com/photo-1648737119247-e93f56878edf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                    alt="">
+                </div>
+                <div class="media-element">
+                    <img
+                    src="https://images.unsplash.com/photo-1652259461964-9cd8bbfceb22?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                    alt="">
+                </div>
+                <div class="media-element">
+                    <img
+                    src="https://images.unsplash.com/photo-1652297141433-f9d60177870d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                    alt="">
+                </div>
+                <a class="next" href="#group-4" aria-label="next">
+                    <svg>
+                        <use href="#next"></use>
+                    </svg>
+                </a>
+            </div>
+            <!-- Group 4 -->
+            <div class="media-group" id="group-4">
+                <a class="previous" href="#group-3" aria-label="previous">
+                    <svg>
+                        <use href="#previous"></use>
+                    </svg>
+                </a>
+                <div class="media-element">
+                    <img
+                    src="https://images.unsplash.com/photo-1652283795047-f231a1057af8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                    alt="">
+                </div>
+                <div class="media-element">
+                    <img
+                    src="https://images.unsplash.com/photo-1648737119247-e93f56878edf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                    alt="">
+                </div>
+                <div class="media-element">
+                    <img
+                    src="https://images.unsplash.com/photo-1652259461964-9cd8bbfceb22?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                    alt="">
+                </div>
+                <div class="media-element">
+                    <img
+                    src="https://images.unsplash.com/photo-1652297141433-f9d60177870d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                    alt="">
+                </div>
+            </div>
+
+            <div class="navigation-indecators">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+    <svg>
+        <symbol id="next" viewBox="0 0 256 512">
+          <path fill="white"
+            d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+        </symbol>
+    
+        <symbol id="previous" viewBox="0 0 256 512">
+          <path fill="white"
+            d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+        </symbol>
+      </svg>
+</body>
+</html>
